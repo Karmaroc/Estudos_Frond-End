@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tamanho de textos</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+            
+            /* px -> fixo, % -> relativo, em -> relativo ao container*/
+
+           .texto {
+            font-size: 1em;
+           } /*A fonte não se altera, por causa do container pai*/           
+           
+           div {
+            font-size: 60px;
+           }
+
+           .texto2 {
+            font-size: 15px;
+           }
+
+           .px1 {
+            font-size: 120px;
+           }
+
+           .em {
+            font-size: 2em;
+
+
+           }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <p class="texto"> Oi, eu sou o Goku!</p>
+            <p class="texto2"> Oi, eu sou o Goku!</p>
+        </div>
+        
+
+        <p class="px1">120px - 1em</p>
+        
+        <div>
+            <p class="em">2em</p>
+            <p class="em2">1em</p>
+        </div>
+<!--A DIV tem por padrão 60px, existe dentro dessa DIV
+dois conteúdos. O conteúdo com 1em equivale ao tamanho do 
+container PAI. O conteúdo com 2em equivale ao dobro do 1em.
+Que é 120px.-->
+    </body>
+
+
+</html>

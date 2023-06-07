@@ -1,0 +1,32 @@
+.ex {
+    border: 10px solid;
+    color: red; 
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    width: 100px;
+}
+
+.ex2 {
+    border: 10px solid;
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+#caixa {
+    /*border: 5px solid green;*/
+    padding: 10px;
+
+}
+
+h3 {
+    /*border: 3px solid blueviolet;*/
+    margin: 0px;
+    text-align: center;
+}
+
+p {
+    /*border: 3px solid red;*/
+    margin: 0px;
+    margin-top: 15px;
+    text-align: center;
+}
