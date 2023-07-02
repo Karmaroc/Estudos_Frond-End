@@ -1,0 +1,28 @@
+header {
+    border: 1px solid #ccc;
+    background: gray;
+    padding: 10px;
+}
+
+nav {
+    border: 1px solid greenyellow;
+    padding: 10px;
+    background: #f2f2f2;
+}
+
+footer {
+    background: #ccc;
+    
+}
+
+article {
+    background: orangered;
+}
+
+section {
+    border: 5px dotted #fff;
+}
+
+aside {
+    background: blueviolet;
+}

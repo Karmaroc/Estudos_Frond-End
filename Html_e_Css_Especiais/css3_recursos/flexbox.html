@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Flexbox - Flexbible Box Layout</title>
+        <link rel="stylesheet" type="text/css" href="">
+        <meta charset="utf-8">
+
+        <style type="text/css">
+            #conteudo {
+                background: #dcdcdc;
+                height: 400px;
+                display: flex;
+                /*flex-direction: row-reverse;*/
+                /*flex-wrap:;*/
+                justify-content: center;
+                align-items: flex-end;
+            }
+
+            .item {
+                width: 100px;
+                height: 150px;
+                margin: 10px;
+                background: white;
+                border: 1px solid red;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <h1>Flexbox</h1>
+        
+        <div id="conteudo">
+            <div class="item">01</div>
+            <div class="item">02</div>
+            <div class="item">03</div>
+            <div class="item">04</div>
+        </div>
+        
+
+    </body>
+
+    </html>
