@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>Input-group - bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+
+    <body style="padding: 16px; border: 1px solid red;">
+
+        <form>
+            <h2>Grupo prepend</h2>
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                </div>
+                <input class="form-control" type="text" placeholder="e-mail">
+            </div>
+
+            <h2>Grupo append</h2>
+            
+            <div class="input-group">
+                <input class="form-control" type="text" placeholder="e-mail">
+                <div class="input-group-append">
+                    <span class="input-group-text">@gmail.com</span>
+                </div>
+            </div>
+            
+            <h2>URL customizada</h2>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">https//exemplo.com/usuario</span>
+                </div>  
+                <input class="form-control" type="text" placeholder="Digite seu usuário">
+            </div>
+
+            <h2>Moeda</h2>
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">R$</span>
+                </div>
+
+                <input class="form-control" type="text" placeholder="Digite seu valor">
+                
+                <div class="input-group-append">
+                    <span class="input-group-text">,00</span>
+                </div>
+            </div>
+
+            <h2>Checkbox/ radio</h2>
+
+            <div class="input-group">
+                <div class="input-group-text">
+                    <input  class="form-check-input m-1" type="checkbox">
+                </div>   
+                <input class="form-control" type="text">
+            </div>
+
+            <div class="input-group">
+                <div class="input-group-text">
+                    <input  class="form-check-input m-1" type="radio">
+                </div>
+
+                <input class="form-control" type="text">
+            </div>
+
+            <hr>
+
+            <h2>Múltiplos inputs</h2>
+            <div class="input-group">
+                <div>
+                    <span class="input-group-text">nome/e-mail</span>
+                </div>
+                <input class="from-control" type="text" placeholder="e-mail">
+                <input class="from-control" type="password" placeholder="senha">
+            
+            </div>
+
+            <h2>Pesquisas</h2>
+
+            <div class="input-group">
+                <input class="form-control" type="text" placeholder="Pesquisar">
+                <div class="input-group-append">
+                    <button class="btn btn-warning" type="button">Pesquisar</button>
+                </div>
+            </div>
+
+        
+        </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>    
+    </body>
+</html>
